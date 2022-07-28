@@ -58,3 +58,10 @@
 	+ class는 마지막에 나오는 것이 가장 큰 영향력임
 	+ id 값은 단 한번만 등장해야 함!!
 - https://www.w3schools.com/cssref/css_selectors.asp
+
+#6. 박스 모델
+##6.1 `<h1>`과 `<a href:"">`태그의 기본값
+- `<h1></h1>`: block level element
+- `<a href:"">`: inline level element
+- 하지만 기본값을 css를 통해 언제든 변경 가능
+	+ `display:inline;` 또는 `display:block;`을 통해
