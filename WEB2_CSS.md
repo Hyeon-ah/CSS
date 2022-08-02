@@ -65,5 +65,16 @@
 - `<a href:"">`: inline level element
 - 하지만 기본값을 css를 통해 언제든 변경 가능
 	+ `display:inline;` 또는 `display:block;`을 통해
-## 6.2 박스 모델 써먹ㄱ
+## 6.2 박스 모델 써먹기
 - 2_1.html 참고
+- border, border-right, solid, margin, padding 등 
+
+# 7. 그리드
+## 7.1 그리드 기본 사용법
+- 무색무취의 태그1:  `<div>`, `</div>`
+	+ 아무런 의미가 없고 디자인의 용도로만 쓰는 태그
+	+ block level element-> 화면 전체를 씀
+- 무색무취의 태그2:  `<span>`, `</span>
+	+ inline level element
+- 두 태그를 나란히 배치하고 싶거나, 어떻게 배치하고 싶다면 그것을 감싸는 부모 태그가 필요 <br>
+ex) `<div id="grid">`
