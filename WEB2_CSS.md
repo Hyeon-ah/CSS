@@ -65,3 +65,5 @@
 - `<a href:"">`: inline level element
 - 하지만 기본값을 css를 통해 언제든 변경 가능
 	+ `display:inline;` 또는 `display:block;`을 통해
+## 6.2 박스 모델 써먹ㄱ
+- 2_1.html 참고
