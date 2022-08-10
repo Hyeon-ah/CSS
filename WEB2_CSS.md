@@ -90,5 +90,14 @@ ex)개수대로 `grid-template-columns: 150px  1fr 50px;`라고 하면 3개중 �
 	+ 박스모델과 관련됨-> https://www.zerocho.com/category/CSS/post/582ddf81d4416a001860e75d
 
 # 8. 반응형 디자인
-## 8.1 반응형 디자인과 미디어 쿼리 소개
+## 8.1 반응형 디자인(Responsive web)과 미디어 쿼리 소개
+- 반응형 디자인: 화면의 크기에 따라서 웹페이지의 각 요소들이 반응해서 최적회된 모양으로 바뀌게 하는 것
+- 미디어쿼리(mediaquery)
+```
+screen width > 800px #(설명을 위한 태그임)800px보다 화면이 크다면
+@media(min-width:800px) #화면의 크기가 최소 800px
+	div{          # 이 태그 동작
+	display:none; 
+	}
+```
 ## 8.2 미디어 쿼리를 이용해서 반응형 디자인 구현하기
